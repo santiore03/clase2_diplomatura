@@ -27,15 +27,25 @@
             <h2>soy el main</h2>
 
             <!-- <form action="/guardardatos.js" method="post"></form> -->
-            <form>
-                <label for="name">Nombre:</label>
-                <input type="text" required> <!-- required: exije que se complete -->
+            
+            <form><!-- con el action los manda a otro lado action="ddd.js" -->
+                <!-- ver métodos del form -->
+                <label for="name">Nombre:</label><!-- Texto -->
+                <input type="text" minlength="5" maxlength="40" required> <!-- required: exije que se complete -->
+                <br>
+                <label for="name">Apellido:</label>              
+                <input type="text" id="Apellido">
+                <!-- id: identifica a un solo elemento a diferencia del name que se lo puedo poner a varios input o label-->
                 
-                <input type="text" id="Nombreee">
-                <!-- id: identifica a un solo elemento -->
-                
-                
-                
+                <br>
+                <label for="text">Fecha de nacimiento: </label>
+                <input type="date" name="nacimiento">
+                <br>
+                <label for="text">Inserte Email</label>
+                <input type="email">
+                <label for="text">Contraseña: </label>
+                <input type="password" minlength="8" maxlength="12" name="password">
+                <br>
                 <input type="button" value="Enviar Datos">
                 
                 <button type="submit"><!-- tiene que estar dentro del form -->
