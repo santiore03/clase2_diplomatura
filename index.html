@@ -1,6 +1,7 @@
 <!DOCTYPE html> <!--Tipo de documento-->
 <html> <!--apertura de etiqueta-->
     <head> <!--cabecera de la pagina web-->
+        <a href="#main">ir a main</a>
         <meta charset="UTF-8"> <!--configuracion del lenguaje-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--responsivo-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsivo-->
@@ -24,7 +25,7 @@
             </ul>
         </nav>
         <main>
-            <h2>soy el main</h2>
+            <h2 id="main">soy el main</h2>
 
             <!-- <form action="/guardardatos.js" method="post"></form> -->
             
@@ -47,13 +48,29 @@
                 <label for="text">Contraseña: </label>
                 <input type="password" minlength="8" maxlength="12" name="password">
                 <br>
+                <label for="genero">Genero</label>
+                <br>
+                <label for="text">Masculino</label>
+                
+                <input type="radio" value="Masculino">
+                <br>
+                <Label>Femenino</Label>
+                <input type="radio" value="Femenino">
+                <br>
+                <input type="checkbox">
+                <br>
+                <label for="text">Resumen</label>
+                <br>
+                <textarea name="texto" id="tt1" cols="100" rows="10"></textarea>
+                
+                <br>
                 <input type="button" value="Enviar Datos">
                 
                 <button type="submit"><!-- tiene que estar dentro del form -->
                     boton
                 </button>
 
-            </form>
+            </form id="miformulario">
             <section>
                 <hr> <!--linea-->
                 <article>
@@ -63,6 +80,7 @@
                     Introducción a etiquetas
                     Diferencia entre etiqueta de bloque y de línea
                     Diferencia entre
+                    <strong> <i><a href="#miformulario">Formulario</a></i></strong>
                 </p>
                 <hr>
                 <img src="imagenes/Lionel-Messi-Argentina-2022-FIFA-World-Cup_(cropped).jpg" alt="messi">
@@ -80,6 +98,13 @@
         <footer>
             soy el footer
 
+            <address>Montevideo 800</address>
+            <p>
+                <a href="mailto:ventas@gmail.com">ventas@gmail.com</a><!-- Ancla -->
+            </p>
+            <p>
+                <a href=""></a><!-- VER telefono -->
+            </p>
             <nav>
                 <ol><!-- lista ordenada -->
                     <li>
