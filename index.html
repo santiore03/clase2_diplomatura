@@ -6,17 +6,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--responsivo-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsivo-->
         <title>Html</title><!--titulo de la ventana del navegador-->
+        
+        <style> /* !-- No recomendado.. Los estilos manejarlos desde css -->
+ */            p{
+                color: black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                
+            }
+            
+
+        </style>
     </head>
     <body> <!--cuerpo de la pagina web-->
 
         <header>
-            <h2>soy el header</h2>
+            <link rel="stylesheet" href="./css/index.css">
+            <h2 class="centrar">soy el header</h2>
         </header>
         <nav>
-            <h2>soy la navegacion</h2>
+            <h2 class="soloyo">soy la navegacion</h2> <!-- class es interesante porque permite agrupar -->
 
             <ul><!-- lista desordenada --> <!-- atajo comentario alt+shift+a -->
-            <li><!-- lista -->
+            <li class="soloyo"><!-- lista -->
                 <a href="./pages/sucursales.html">Sucursales</a> <!-- el ./ parte de la carpeta en donde esta -->
             </li>
             <li>
@@ -25,6 +36,7 @@
             </ul>
         </nav>
         <main>
+            <h1 style="color:green; font: size 50px;"> Etiqueta de Titulo Nivel 1 </h1>
             <h2 id="main">soy el main</h2>
 
             <!-- <form action="/guardardatos.js" method="post"></form> -->
@@ -74,7 +86,7 @@
             <section>
                 <hr> <!--linea-->
                 <article>
-                <h1> Etiqueta de Titulo Nivel 1 </h1>
+                <h1 style="color:green; font: size 50px;"> Etiqueta de Titulo Nivel 1 </h1>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg" >
                 <p> 
                     Introducción a etiquetas
@@ -119,3 +131,4 @@
 
     </body> <!--cierre del cuerpo-->
 </html> <!--cierre de etiquetas-->
+

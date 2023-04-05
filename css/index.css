@@ -1,0 +1,51 @@
+/*selector {
+    Propiedad: valor
+    Propiedad: valor
+}
+*/
+
+h2{/* selector global se aplica a todos los h2 */
+    color: rgb(220, 27, 20);
+    font-size: 45px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.soloyo{
+    text-align: right;
+}
+
+h1{
+    border-top: solid 5px black;
+    border-right: dashed 8px violet;
+    border-bottom: solid 10px grey;
+    padding-top: 35px;
+    padding-left: 35px;
+
+    margin-bottom: 50px;
+
+}
+#main{
+    color: yellow;
+}
+
+.centrar{
+    text-align: center;
+}
+
+ul li{
+    color: black;
+    
+    font-style: oblique;
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    padding: 25px;
+    border: solid 1px black ;
+    background-color: rgb(123, 255, 0);
+}/* ul: contenedor padre li: hijo */
+
+a{
+    text-decoration: none;
+}
