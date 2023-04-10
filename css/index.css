@@ -8,7 +8,7 @@
 h2{/* selector global se aplica a todos los h2 */
     color: rgb(220, 27, 20);
     font-size: 45px;
-    background-color: aquamarine;
+    background-color: rgb(104, 117, 113);
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
 }
